@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300;1,400;1,700&family=Poppins:wght@500&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Header
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-header{
+	background: transparent;
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+.veer-menu{}
+.veer-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.veer-menu ul li a{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+.veer-menu-icon{
+	display: none;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Hero
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-hero{
+	background: url('images/24.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.veer-hero-text{
+	text-align: center;
+	color: #fff;
+}
+.veer-hero-text h1{
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70px;
+}
+.veer-hero-text h1 span{
+	font-style: italic;
+	font-weight: 300;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			About
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-about{
+	background: #f2f6fa;
+	padding: 100px 0;
+}
+.veer-about-text{}
+.veer-about-text em{
+	color: #252525;
+	font-size: 30px;
+}
+.veer-about-text h2{
+	color: #252525;
+	font-size: 35px;
+	font-weight: 700;
+}
+.veer-about-text p{
+	color: #252525;
+	font-size: 14px;
+	font-weight: 400;
+}
+.veer-about-text a{
+	background: #3d9cd8;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.veer-about-img{
+	position: relative;
+}
+.veer-about-img::before{
+	content: '';
+	display: block;
+	width: 180px;
+	height: 80px;
+	border: 5px solid #bddcf0;
+	position: absolute;
+	top: -10%;
+	left: -10%;
+}
+
+.veer-about-img::after{
+	content: '';
+	display: block;
+	width: 150px;
+	height: 80px;
+	border: 5px solid #bddcf0;
+	position: absolute;
+	bottom: -10%;
+	right: -10%;
+}
+
+.veer-about-img img{
+	z-index: 99;
+	position: relative;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Service
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-service{
+	background: #fff;
+	padding: 100px 0;
+}
+
+.veer-title{
+	text-align: center;
+	width: 75%;
+	margin: 0 auto 50px;
+}
+.veer-title h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 30px;
+	position: relative;
+	display: inline-block;
+}
+.veer-title h2::before{
+	content: '';
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #009cff;
+	position: absolute;
+	bottom: -20%;
+	left: 20%;
+}
+
+.veer-title h2::after{
+	content: '';
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #85d0ff;
+	position: absolute;
+	bottom: -35%;
+	left: 40%;
+}
+
+.veer-service-content{
+	text-align: center;
+}
+.veer-service-img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.veer-service-text{}
+.veer-service-text h5{
+	color: #3f3f3f;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.veer-service-text p{
+	color: #3f3f3f;
+	font-size: 14px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Video
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-video{
+	background: url('images/26.png');
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0;
+	text-align: center;
+}
+
+.veer-video a{
+	color: #fff;
+	font-size: 40px;
+}
+
+
+.veer-work{
+	padding: 100px 0;
+	background: #fff;
+}
+.veer-work img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.veer-work-btn{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.veer-work-btn button{
+	border: none;
+	background: transparent;
+	text-transform: capitalize;
+	margin: 0 20px;
+}
+.veer-work-btn button.active{
+	color: #3d9cd8;
+	text-decoration: line-through;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Reviews
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-review{
+	background: url('images/testimonial.png');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+}
+
+.veer-client-photo{
+	width: 100px;
+	margin: 0 auto 30px;
+}
+.veer-client-feedback{
+	text-align: center;
+}
+.veer-client-feedback p{
+	font-size: 14px;
+	color: #252525;
+	font-weight: 600;
+}
+.veer-client-rating{
+	text-align: center;
+
+}
+.veer-client-rating p{
+	color: #919191;
+	font-size: 15px;
+}
+.veer-client-rating ul{
+	display: flex;
+	justify-content: center;
+}
+.veer-client-rating ul li i{
+	color: #e67d5f;
+}
+
+.veer-review .veer-title h2::before,
+.veer-review .veer-title h2::after,
+.veer-team .veer-title h2::before,
+.veer-team .veer-title h2::after {
+	background: #959595;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Team
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-team{
+	background: #fff;
+	padding: 100px 0;
+}
+.veer-member{
+	background: #f3f6f7;
+	transition: .5s;
+}
+.veer-member-photo{
+	position: relative;
+}
+.veer-member-photo img{
+	width: 100%;
+	transition: .5s;
+}
+.veer-member-social{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: .5s;
+}
+.veer-member-social ul{
+	display: flex;
+}
+.veer-member-social ul li{}
+.veer-member-social ul li a{
+	padding: 0 5px;
+	color: #000;
+	transition: .3s;
+}
+.veer-member-social ul li a:hover{
+	color: #0e7b9e;
+}
+.veer-member-info{
+	text-align: center;
+	padding: 20px 0;
+}
+.veer-member-info h6{
+	color: #000;
+	font-size: 13px;
+}
+.veer-member-info p{
+	color: #0e7b9e;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.veer-member:hover .veer-member-photo img{
+	opacity: 0.5;
+}
+.veer-member:hover .veer-member-social{
+	opacity: 1;
+}
+.veer-member:hover{
+	background: transparent;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Blog
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-blog{
+	padding: 100px 0;
+}
+article{}
+article h3{
+	color: #3d9cd8;
+	font-size: 20px;
+}
+article h3 a{}
+article span{
+	color: #272727;
+	font-size: 13px;
+}
+article span i{
+	color: #e67d5f;
+}
+article p{
+	color: #333;
+	font-size: 14px;
+}
+article ul{
+	display: flex;
+}
+article ul li{
+	padding: 5px;
+}
+article ul li i{}
+article ul li i.fa-heart{
+	color: #d75a4a;
+}
+.veer-blog img{
+	width: 100%;
+}
+
+.veer-blog .veer-title h2{
+	color: #0bb256;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Clients
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-clients{
+	padding: 25px 0 100px;
+	background: #fff;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Contact
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-map{
+	position: relative;
+}
+.veer-contact-form{
+	background: rgba(16, 12, 29, .81);
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 25px 100px;
+}
+.veer-contact-form h4{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+} 
+.veer-user{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	flex-flow: wrap;
+}
+.veer-user input{
+	display: block;
+	width: 49%;
+	background: transparent;
+	border: 1px solid #76747c;
+	padding: 5px 10px;
+}
+.veer-msg{
+	margin-bottom: 25px;
+}
+.veer-msg textarea{
+	display: block;
+	width: 100%;
+	background: transparent;
+	border: 1px solid #76747c;
+	padding: 5px 10px;
+}
+input::placeholer,
+textarea::placeholder{
+	color: #76747c;
+}
+.veer-submit{}
+.veer-submit input{
+	background: #3d9bd7;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			Footer
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+footer{
+	background: #ffffff;
+	padding: 25px 0;
+}
+.veer-footer-menu{}
+.veer-footer-menu ul{
+	display: flex;
+}
+.veer-footer-menu ul li a{
+	color: #757575;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.veer-social-network{}
+.veer-social-network ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.veer-social-network ul li a{
+	color: #757575;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 0 10px;
+}
+
+
+.veer-about-content{
+	background: skyblue;
+}

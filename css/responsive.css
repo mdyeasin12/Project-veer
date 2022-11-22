@@ -1,0 +1,65 @@
+@media (max-width: 991px) {
+	.veer-menu{
+		display: none;
+		background: #000;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+	}
+	.veer-menu ul{
+		display: block;	
+	}
+	.veer-menu ul li a{
+		padding: 10px 20px;
+		display: block;
+	}
+	.veer-menu-icon{
+		display: block;
+		text-align: right;
+	}
+	.veer-menu-icon i{
+		font-size: 25px;
+		color: #fff;
+	}
+	.veer-menu-icon i.fa-times{
+		display: none;
+	}
+
+	.veer-about-text{
+		margin-bottom: 100px;
+	}
+	.veer-about-img{
+		width: 75%;
+		margin: auto;
+	}
+	.veer-blog-left{
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+@media (max-width: 767px) {
+	.veer-contact-form{
+		width: 100%;
+	}
+	.veer-user input{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.veer-footer-menu ul,
+	.veer-social-network ul{
+		justify-content: center;
+	}
+
+
+}
+
+
+@media (max-width: 575px) {
+	.veer-contact-form{
+		padding: 25px;
+	}
+}
